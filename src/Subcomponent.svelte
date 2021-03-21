@@ -4,12 +4,12 @@
     }
   </style>
 
-  <div>This is styled using &lt;style&gt; and @apply</div>
+  <div>Changing the &lt;style&gt; @apply to include a new class will be seen immediately on save</div>
   <div class="button">Button</div>
 
   <br>
   <br>
   <br>
 
-  <div>This has the same styling as class attributes</div>
+  <div>Changing this inline style to include a new class will not be seen until snowpack is restarted</div>
   <div class="bg-purple-500 text-white inline-block p-2 rounded">Button</div>
