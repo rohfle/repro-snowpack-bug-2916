@@ -1,10 +1,11 @@
 <script>
-  import './main.css';
+  import './App.css';
+  import Subcomponent from './Subcomponent.svelte'
 </script>
 
 <style>
   .button {
-    @apply bg-blue-500 text-white inline-block p-2 rounded;
+    @apply bg-red-500 text-white inline-block p-2 rounded;
   }
 </style>
 
@@ -16,4 +17,10 @@
 <br>
 
 <div>This has the same styling as class attributes</div>
-<div class="bg-blue-500 text-white inline-block p-2 rounded">Button</div>
+<div class="bg-red-500 text-white inline-block p-2 rounded">Button</div>
+
+<br>
+<br>
+<br>
+
+<Subcomponent/>
